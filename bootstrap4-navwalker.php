@@ -121,7 +121,6 @@ if (class_exists('\Walker_Nav_Menu')) {
                     $atts['class']			= 'nav-link';
                     if ($args->has_children && $args->depth != 1) {
                         $classes[] = ' dropdown';
-                        $atts['href']   		= '#';
                         $atts['data-toggle']	= 'dropdown';
                         $atts['class']			= 'dropdown-toggle nav-link';
                         $atts['role']	= 'button';
